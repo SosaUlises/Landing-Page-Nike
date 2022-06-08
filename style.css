@@ -8,9 +8,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgb(251, 253, 255);
-    background: linear-gradient(90deg, rgba(251, 253, 255, 1) 0%, rgba(242, 244, 245, 1) 57%, rgba(251, 253, 255, 1) 100%);
 }
+
+/* NAVBAR */
 
 .logo {
     height: 120%;
@@ -52,8 +52,10 @@ a {
 }
 
 a:hover {
-    color: #00ff15;
+    color: #ff6600;
 }
+
+/* HERO SECTION */
 
 .hero {
     display: flex;
@@ -93,7 +95,7 @@ a:hover {
 }
 
 .primary:hover {
-    color: #00ff15;
+    color: #ff6600;
 }
 
 .secondary {
@@ -107,12 +109,12 @@ a:hover {
 }
 
 .secondary:hover {
-    border: 2px solid #00ff15;
+    border: 2px solid #ff6600;
 }
 
 .img {
-    background-image: url(/img/shoesNike.jpg);
-    width: 580px;
+    background-image: url(/img/nike-art-ilustracion.png);
+     width: 580px;
     height: 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,18 +122,165 @@ a:hover {
     border-radius: 20px;
 }
 
+/* SECOND SECTION */
+
 .text {
     flex-wrap: wrap;
+    font-size: 18px;
     height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
+}
+.img2{
+    background-image: url(/img/bg-jordan.jpg);
+    border-radius: 20px;
+    width: 530px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+.img2:hover{
+    transform: scale(1.5,1.5);
+    transition: all 0.5s ease;
 }
 
 .textArt {
     padding: 30px;
-    height: 300px;
-    width: 60%;
+    height: 200px;
+    width: 50%;box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.068);
+}
+
+/* ADVANTAGES SECTION */
+.container-ventajas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+.ventajas-title{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ventajas-title h2{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.ventajas-title p{
+    font-size: 20px;
+}
+.ventajas-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ventajas-card{
+    width: 400px;
+    height: 400px;
+    padding: 0 30px;
+    margin: 0 5px;
+}
+.ventajas-card img{
+    width: 200px;
+}
+.title-card{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Work section */
+.work-container{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.work-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.work-title h2{
+    font-size: 30px;
+}
+.work-title p{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.work-container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-card{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    height: 320px;
+    width: 300px;
+    padding: 20px 30px;
+    margin: 0 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+.work-card:hover{
+    box-shadow: 0 0 20px 5px rgba(255, 136, 0, 0.938);
+}
+.work-title-card{
+font-size: 20px;
+text-transform: uppercase;
+padding: 20px 0;
+margin-bottom: 10px;
+text-align: center;
+}
+.logo-nike{
+padding: 0px 0px 20px 0px;
+display: flex;
+justify-content: center;
+}
+.logo-nike img{
+    width: 18%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* En proceso, todavia no terminado */
+  
+.article {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.article a{
+    margin-bottom: 15px;
+}
+.text{
+    height: 100px;
+}
+.img2{
+   margin-top: 200px;
+}
+.img2:hover{
+    transform: scale(1,1);
+}
+   
 }
