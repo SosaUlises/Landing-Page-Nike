@@ -479,7 +479,7 @@ a:hover {
 
     .textArt {
         width: 100%;
-        height: 250px;
+        height: 300px;
     }
 
     /* Adventages section */
@@ -533,9 +533,8 @@ a:hover {
     }
     .textClients p{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background-color: red;
+       padding: 0 50px;
     }
     .client-card{
         box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.301);
