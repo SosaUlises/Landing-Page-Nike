@@ -522,6 +522,7 @@ a:hover {
     .ourClients {
         height: 1500px;
     }
+    
 
     .clients-container {
         width: 100%;
@@ -529,6 +530,9 @@ a:hover {
     }
     .text-clients{
         display: block;
+    }
+    .textClients p{
+        align-items: center;
     }
     .client-card{
         box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.301);
