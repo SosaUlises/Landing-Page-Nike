@@ -33,9 +33,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -webkit-box-shadow: -1px 9px 26px -8px rgba(0,0,0,0.67);
--moz-box-shadow: -1px 9px 26px -8px rgba(0,0,0,0.67);
-box-shadow: -1px 9px 26px -8px rgba(0,0,0,0.67);
+    -webkit-box-shadow: -1px 9px 26px -8px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: -1px 9px 26px -8px rgba(0, 0, 0, 0.67);
+    box-shadow: -1px 9px 26px -8px rgba(0, 0, 0, 0.67);
 
 }
 
@@ -68,7 +68,6 @@ a:hover {
 }
 
 .article {
-
     width: 50%;
     height: 300px;
     padding: 25px 25px 25px 30px;
@@ -114,7 +113,7 @@ a:hover {
 
 .img {
     background-image: url(/img/nike-art-ilustracion.png);
-     width: 580px;
+    width: 580px;
     height: 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,7 +133,8 @@ a:hover {
     align-items: center;
     margin-bottom: 120px;
 }
-.img2{
+
+.img2 {
     background-image: url(/img/bg-jordan.jpg);
     border-radius: 20px;
     width: 530px;
@@ -143,21 +143,23 @@ a:hover {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    
+
 }
-.img2:hover{
-    transform: scale(1.5,1.5);
+
+.img2:hover {
+    transform: scale(1.4, 1.5);
     transition: all 0.5s ease;
 }
 
 .textArt {
     padding: 30px;
     height: 200px;
-    width: 50%;box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.068);
+    width: 50%;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.068);
 }
 
 /* ADVANTAGES SECTION */
-.container-ventajas{
+.container-ventajas {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -165,42 +167,49 @@ a:hover {
     width: 100%;
     height: 600px;
 }
-.ventajas-title{
+
+.ventajas-title {
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.ventajas-title h2{
+
+.ventajas-title h2 {
     font-size: 30px;
     padding: 20px 0;
 }
-.ventajas-title p{
+
+.ventajas-title p {
     font-size: 20px;
 }
-.ventajas-card-container{
+
+.ventajas-card-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ventajas-card{
+
+.ventajas-card {
     width: 400px;
     height: 400px;
     padding: 0 30px;
     margin: 0 5px;
 }
-.ventajas-card img{
+
+.ventajas-card img {
     width: 200px;
 }
-.title-card{
+
+.title-card {
     text-transform: uppercase;
     font-size: 20px;
     padding: 10px;
 }
 
 /* Work section */
-.work-container{
+.work-container {
     display: flex;
     width: 100%;
     height: 700px;
@@ -209,26 +218,31 @@ a:hover {
     justify-content: center;
     margin-top: 80px;
 }
-.work-title{
+
+.work-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
 }
-.work-title h2{
+
+.work-title h2 {
     font-size: 30px;
 }
-.work-title p{
+
+.work-title p {
     padding: 15px 30px;
     font-size: 20px;
 }
-.work-container-card{
+
+.work-container-card {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.work-card{
+
+.work-card {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -239,48 +253,292 @@ a:hover {
     border-radius: 20px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
 }
-.work-card:hover{
+
+.work-card:hover {
     box-shadow: 0 0 20px 5px rgba(255, 136, 0, 0.938);
 }
-.work-title-card{
-font-size: 20px;
-text-transform: uppercase;
-padding: 20px 0;
-margin-bottom: 10px;
-text-align: center;
+
+.work-title-card {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.logo-nike{
-padding: 0px 0px 20px 0px;
-display: flex;
-justify-content: center;
+
+.logo-nike {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
 }
-.logo-nike img{
+
+.logo-nike img {
     width: 18%;
 }
 
-@media screen and (max-width: 1024px) {
-
-    /* En proceso, todavia no terminado */
-  
-.article {
-    margin-top: 60px;
+/* Clients section */
+.ourClients {
     width: 100%;
+    height: 600px;
     display: flex;
+    justify-content: center;
+    padding-top: 100px;
     flex-direction: column;
+}
+
+.textClients {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textClients h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.textClients p {
+    font-size: 20px;
+}
+
+.clients-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
-.article a{
-    margin-bottom: 15px;
+
+.client-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
 }
-.text{
+
+.client-card img {
+    width: 200px;
+}
+
+.text-clients {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    display: none;
+}
+
+.client-card:hover {
+    background-color: #ff3c00de;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.685);
+}
+
+.client-card:hover>.text-clients {
+    display: block;
+}
+
+/* Footer section */
+.footer {
+    background-color: #000000;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 {
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.footer1 a {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.footer2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer2 a {
+    padding: 5px;
+}
+
+.title-footer {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer3 a {
+    padding: 5px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 30px;
     height: 100px;
+    width: 240px;
 }
-.img2{
-   margin-top: 200px;
+
+.redes a i {
+    font-size: 30px;
+    padding: 10px 15px;
 }
-.img2:hover{
-    transform: scale(1,1);
-}
-   
+
+
+
+
+@media screen and (max-width: 1024px) {
+    /* navbar */
+    .navbar ul li a{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    /* Hero section */
+    .hero {
+        height: 1000px;
+    }
+
+    .article {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article a {
+        margin-bottom: 15px;
+    }
+
+    .img {
+        max-width: 600px;
+        max-height: 500px;
+    }
+
+    /* SECOND SECTION */
+    .text {
+        height: 750px;
+        margin-bottom: 0px;
+    }
+
+    .img2 {
+        max-width: 600px;
+        max-height: 500px;
+        margin-bottom: 150px;
+        order: 2;
+    }
+
+    .img2:hover {
+        transform: scale(1, 1);
+    }
+
+    .textArt {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* Adventages section */
+    .container-ventajas {
+        height: 1500px;
+    }
+
+    .ventajas-title {
+        height: 200px;
+    }
+
+    .ventajas-card-container {
+        flex-direction: column;
+    }
+
+    /* work section */
+    .work-container {
+        height: 2000px;
+        margin-top: 0px;
+    }
+
+    .work-title {
+        margin-bottom: 100px;
+    }
+
+    .work-container-card {
+        flex-direction: column;
+    }
+
+    .logo-nike img {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+
+    .work-card {
+        margin-bottom: 50px;
+    }
+
+    /* collaborations section */
+    .ourClients {
+        height: 1500px;
+    }
+
+    .clients-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .text-clients{
+        display: block;
+    }
+    .client-card{
+        box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.301);
+    }
+
+    /* footer section */
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    }
 }
